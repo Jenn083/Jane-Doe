@@ -43,14 +43,17 @@ margin-bottom: 0px;
 padding-top: 25px;
 }
 .bullet{
-	text-align: right;
+	text-align:right;
 	color:white;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
 }
 
-.icon {
+/*.icon {
 	text-align: right;
 
-}
+}*/
 
 
 .social{
