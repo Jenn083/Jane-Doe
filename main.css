@@ -1,0 +1,160 @@
+
+
+nav{
+	width: 200px;
+	height: 100%;
+	background-color: pink;
+	display: block;
+	position:fixed;
+	float: left;
+
+}
+
+.container1{
+	margin-left: 405px;
+	max-width:800px;
+	padding-top: 200px;
+}
+main{
+margin-left: 240px;
+margin-right: 30px;
+
+}
+.headshot{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.name, .title{
+	text-align: right;
+	color: white;
+	margin-right: 10px;
+	display: block;
+
+
+}
+ .title{
+ 	margin-top: 0px;
+ }
+.name{
+margin-bottom: 0px;
+padding-top: 12px;
+}
+.bullet{
+	text-align: right;
+	color:white;
+}
+
+.icon {
+	text-align: left;
+
+}
+
+
+.nav-contacts{
+text-align: center;
+}
+
+header{
+text-align: center;
+
+}
+.background {
+	height:500px;
+
+	background-image: url(http://citybuzz.com/wp-content/uploads/2011/03/monument-pink-sunrise-abpan.com_.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.nav-contacts{
+	display: inline-block;
+	padding-top: 100px;
+	margin: auto;
+}
+
+
+.nav-bar{
+
+	padding-top: 200px;
+}
+
+.nav-space{
+
+	padding-top: 10px;
+
+}
+.prologue{
+	color: white;
+	
+	margin-top: 0px;
+	
+}
+.prologue2{
+
+	color:white;
+
+}
+
+.portfolio{
+	text-align: center;
+
+}
+.portfolio-content{
+
+	max-width: 1200px;
+	padding-left:80px ;
+	padding-right:60px;
+}
+.img{
+
+	margin-bottom: 20px;
+}
+.project-image{
+	width:100%;
+}
+.description{
+	padding:20px;
+}
+.about-me {
+text-align: center;
+margin-top: 90px;
+}
+
+.about-me-image{
+	background-image:url("http://famous-photographers.com/wp-content/uploads/2014/05/cute-girl-black-white.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+	.about-me-para{
+
+		max-width: 1000px;
+	}
+.contact{
+	text-align: center;
+	width: 
+}
+ .contact-para{
+
+ 	max-width: 1000px;
+ }
+
+.footer2{
+
+	margin-left: 466px;
+	margin-top: 500px;
+}
+.design::before {
+	content:'|';
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.demo::before {
+
+	content:'|';
+	padding-right: 5px;
+	padding-left: 5px;
+}
