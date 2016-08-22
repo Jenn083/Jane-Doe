@@ -87,12 +87,15 @@ text-align: center;
 }
 .nav-contacts{
 	
-	padding-top: 600px;
+	padding-top: 665px;
 
 	
 	text-align: center;
 }
+.nav-contacts .fa:hover{
+color: white;
 
+}
 
 .nav-bar{
 	display: inline-block;
@@ -177,7 +180,17 @@ margin-top: 90px;
  	margin-top: 30px;
  	margin-bottom: 50px;
  }
+input[type=text] {
+border-radius: 10%;
 
+
+}
+
+input[type=email]{
+border-radius: 10%;
+
+
+}
 .footer2{
 
 	margin-left: 466px;
