@@ -1,7 +1,7 @@
 
 
 nav{
-	width: 200px;
+	width: 270px;
 	height: 100%;
 	background-color: pink;
 	display: block;
@@ -26,10 +26,11 @@ margin-right: 30px;
 	width: 70px;
 	margin-left: 10px;
 	margin-top: 10px;
+	border-radius: 20%;
 }
 .name, .title{
 	text-align: right;
-	color: white;
+	color: black;
 	margin-right: 10px;
 	display: block;
 
@@ -37,26 +38,39 @@ margin-right: 30px;
 }
  .title{
  	margin-top: 0px;
+ 	font-size: 15px;
  }
 .name{
 margin-bottom: 0px;
-padding-top: 12px;
+padding-top: 25px;
+font-size: 27px;
 }
-.bullet{
-	text-align: right;
+.bullet {
+	float:right;
 	color:white;
+	display: inline-block;
+	/*text-decoration: none;*/
+	color: black;
+	font-size: 15px;
+	margin-left: 153px;
+	/*position:fixed;*/
 }
 
-.icon {
-	text-align: left;
+/*.icon {
+	text-align: right;
 
+}*/
+
+
+.social{
+	padding-right: 30px;
 }
 
+.social1 {
 
-.nav-contacts{
-text-align: center;
+/*padding-left: 10px;*/
+
 }
-
 header{
 text-align: center;
 
@@ -68,24 +82,36 @@ text-align: center;
 	background-size: cover;
 	background-position: center center;
 }
+.fa {
 
-.nav-contacts{
-	display: inline-block;
-	padding-top: 100px;
-	margin: auto;
+	color: black;
 }
+.nav-contacts{
+	padding-left: 49px;
+	padding-top: 605px;
 
+	position: fixed;
+	/*text-align: center;*/
+}
+	
 
 .nav-bar{
-
-	padding-top: 200px;
+	display: inline-block;
+	padding-left: 25px;
+	padding-top: 60px;
+	/*position: fixed;*/
 }
+
 
 .nav-space{
 
-	padding-top: 10px;
-
+	padding-top: 15px;
 }
+
+.nav-space:hover{
+	background-color: white;
+}
+
 .prologue{
 	color: white;
 	
@@ -100,6 +126,7 @@ text-align: center;
 
 .portfolio{
 	text-align: center;
+	margin-top: 50px;
 
 }
 .portfolio-content{
@@ -107,6 +134,7 @@ text-align: center;
 	max-width: 1200px;
 	padding-left:80px ;
 	padding-right:60px;
+	margin-top: 30px;
 }
 .img{
 
@@ -128,24 +156,47 @@ margin-top: 90px;
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 700px;
+	margin-top: 30px;
+	background-position: center center;
+	
+	
+
 }
 	.about-me-para{
 
 		max-width: 1000px;
+		padding-left: 100px;
+		margin-top: 30px;
+		padding-bottom: 50px;
 	}
 .contact{
 	text-align: center;
-	width: 
+	margin-top: 70px;
+	padding-bottom: 50px;
+
 }
  .contact-para{
-
+ 	padding-left: 100px;
  	max-width: 1000px;
+ 	margin-top: 30px;
+ 	margin-bottom: 50px;
  }
+input[type=text] {
+border-radius: 10%;
 
+
+}
+
+input[type=email]{
+border-radius: 10%;
+
+
+}
 .footer2{
 
-	margin-left: 466px;
-	margin-top: 500px;
+	margin-left: 480px;
+	margin-top: 100px;
+	padding-bottom: 50px;
 }
 .design::before {
 	content:'|';
