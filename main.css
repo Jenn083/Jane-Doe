@@ -1,7 +1,10 @@
 
 main{
 	background-color: #f2f2f2;
-
+	background-position: center center;
+	
+	padding-top: 30px;
+	width:85%;
 }
 nav{
 	width: 270px;
@@ -224,10 +227,10 @@ border-radius: 4px;
 
 }
 .footer2{
-
+	padding-top: 50px;
 	margin-left: 200px;
-	margin-top: 80px;
-	padding-bottom: 300px;
+	margin-top: 60px;
+	padding-bottom: 100px;
 }
 .design::before {
 	content:'|';
