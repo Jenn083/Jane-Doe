@@ -1,7 +1,10 @@
 
-
+main{
+	background-color: #f2f2f2;
+	background: linear-gradient(top);
+}
 nav{
-	width: 200px;
+	width: 270px;
 	height: 100%;
 	background-color: pink;
 	display: block;
@@ -26,10 +29,11 @@ margin-right: 30px;
 	width: 70px;
 	margin-left: 10px;
 	margin-top: 10px;
+	border-radius: 20%;
 }
 .name, .title{
 	text-align: right;
-	color: white;
+	color: black;
 	margin-right: 10px;
 	display: block;
 
@@ -37,26 +41,38 @@ margin-right: 30px;
 }
  .title{
  	margin-top: 0px;
+ 	font-size: 15px;
  }
 .name{
 margin-bottom: 0px;
-padding-top: 12px;
+padding-top: 25px;
+font-size: 27px;
 }
-.bullet{
-	text-align: right;
+.bullet {
+	float:right;
 	color:white;
+	display: inline-block;
+	/*text-decoration: none;*/
+	color: black;
+	font-size: 15px;
+	margin-left: 125px;
 }
 
-.icon {
-	text-align: left;
+/*.icon {
+	text-align: right;
 
+}*/
+
+
+.social{
+	padding-right: 30px;
 }
 
+.social1 {
 
-.nav-contacts{
-text-align: center;
+/*padding-left: 10px;*/
+
 }
-
 header{
 text-align: center;
 
@@ -68,23 +84,36 @@ text-align: center;
 	background-size: cover;
 	background-position: center center;
 }
+.fa {
 
+	color: black;
+}
 .nav-contacts{
-	display: inline-block;
-	padding-top: 100px;
-	margin: auto;
+	
+	padding-top: 600px;
+
+	
+	text-align: center;
 }
 
 
 .nav-bar{
-
-	padding-top: 200px;
+	display: inline-block;
+	padding-left: 25px;
+	padding-top: 60px;
 }
 
 .nav-space{
 
-	padding-top: 10px;
+	padding-top: 15px;
 
+}
+.nav-space:hover{
+	background-color: white;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	font-weight:bold;
 }
 .prologue{
 	color: white;
@@ -97,9 +126,18 @@ text-align: center;
 	color:white;
 
 }
+.prologue-button{
+	width:100px;
+	height:20px;
+	background-color:pink;
+	border-radius: 4px;
+	border:none;
+
+}
 
 .portfolio{
 	text-align: center;
+	margin-top: 50px;
 
 }
 .portfolio-content{
@@ -107,6 +145,7 @@ text-align: center;
 	max-width: 1200px;
 	padding-left:80px ;
 	padding-right:60px;
+	margin-top: 30px;
 }
 .img{
 
@@ -128,24 +167,63 @@ margin-top: 90px;
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 700px;
+	margin-top: 30px;
 }
 	.about-me-para{
 
 		max-width: 1000px;
+		padding-left: 100px;
+		margin-top: 30px;
+		padding-bottom: 50px;
 	}
+
+
 .contact{
 	text-align: center;
-	width: 
+	margin-top: 70px;
+	padding-bottom: 50px;
+
 }
  .contact-para{
-
+ 	padding-left: 100px;
  	max-width: 1000px;
+ 	margin-top: 30px;
+ 	margin-bottom: 50px;
  }
+ input[class=input-box]{
+	width:40%;
+	height: 70px;
+	margin:10px;
+	font-size: 20px;
+	border-radius: 4px;
+	padding-left: 10px;
+	border:1px solid grey;
+ }
+input[class=input-message]{
+	width:80%;
+	height: 200px;
+	margin:10px;
+	border-radius: 4px;
+	font-size:20px;
+	padding-left: 10px;
+	border:1px solid grey;
+}
 
+
+.contact-button{
+height:50px;
+width:200px;
+background-color: pink;
+border: none;
+border-radius: 4px;
+
+
+
+}
 .footer2{
 
 	margin-left: 466px;
-	margin-top: 500px;
+	margin-top: 100px;
 }
 .design::before {
 	content:'|';
